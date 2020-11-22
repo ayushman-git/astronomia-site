@@ -4,14 +4,14 @@
       <img class="profile-img" src="../assets/profile.png" />
       <h1>Astronomia</h1>
       <p class="tagline">
-        A Discord bot for <strong>Space Enthusiasts.</strong>
+        An open source Discord bot for <strong>Space Enthusiasts.</strong>
       </p>
       <div class="button-holder">
         <button class="add-btn" @click="openURL">
           <img class="discord-logo" src="../assets/discord.png" />
           <p>Add to Discord</p>
         </button>
-        <button class="secondary-btn">Learn</button>
+        <button class="secondary-btn">Commands</button>
       </div>
     </div>
   </main>
@@ -45,7 +45,7 @@ main {
 }
 .button-holder {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
   margin-top: 3em;
 }
@@ -56,6 +56,7 @@ button {
   padding: 0.8em;
   font-size: 1rem;
   cursor: pointer;
+  margin: 0em 1em;
 }
 .discord-logo {
   height: 2rem;
@@ -96,5 +97,10 @@ button {
 }
 h1 {
   margin: 0.2em 0em;
+  font-size: 3em;
+}
+.tagline {
+  font-size: 1.5em;
+  font-weight: 300;
 }
 </style>
