@@ -5,7 +5,6 @@
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap');
 html {
   font-family:
     'Source Sans Pro',
@@ -35,4 +34,9 @@ body {
   background-color: rgb(248, 184, 89);
 }
 
+@font-face {
+    font-family: "Dancing Script";
+    src: local("Dancing Script"),
+     url(../assets/DancingScript.ttf) format("truetype");
+}
 </style>
