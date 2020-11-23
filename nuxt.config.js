@@ -14,11 +14,6 @@ export default {
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-      {
-        re: "stylesheet",
-        href:
-          "https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap"
-      }
     ]
   },
 

@@ -65,7 +65,7 @@ button {
   border-radius: 30px;
   outline: none;
   border: none;
-  padding: 0.8em;
+  padding: 0.8em 1em 0.8em 1em;
   font-size: 1rem;
   cursor: pointer;
   margin: 0em 1em;
@@ -85,7 +85,7 @@ button {
 .add-btn::before {
   position: absolute;
   content: "";
-  background: linear-gradient(-45deg, #f0386b, #a01940);
+  background: linear-gradient(-45deg, #f03838, #be1010);
   border-radius: 30px;
   top: 0;
   right: 0;
@@ -102,6 +102,11 @@ button {
   background-color: transparent;
   border: 3px solid #f0386b;
   color: #f0386b;
+  transition: all 0.2s ease;
+}
+.secondary-btn:hover {
+  border: 3px solid #f03838;
+  color: #f03838;
 }
 .profile-img {
   height: 120px;
