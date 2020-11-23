@@ -11,9 +11,7 @@
           <img class="discord-logo" src="../assets/discord.png" />
           <p>Add to Discord</p>
         </button>
-        <button @click="scrollToCommands" class="secondary-btn">
-          Commands
-        </button>
+        
       </div>
     </div>
   </main>
