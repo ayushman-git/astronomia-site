@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="hero-container">
-      <img class="profile-img" :src="require('../assets/profile.png')" />
+      <img class="profile-img" src="~/assets/profile.png" />
       <h1>Astronomia</h1>
       <p class="tagline">
         An open source Discord bot for <strong>Space Enthusiasts.</strong>
@@ -11,7 +11,9 @@
           <img class="discord-logo" src="../assets/discord.png" />
           <p>Add to Discord</p>
         </button>
-        
+        <!-- <button @click="scrollToCommands" class="secondary-btn">
+          Commands
+        </button> -->
       </div>
     </div>
   </main>
