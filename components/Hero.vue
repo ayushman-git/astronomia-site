@@ -11,7 +11,9 @@
           <img class="discord-logo" src="../assets/discord.png" />
           <p>Add to Discord</p>
         </button>
-        <button class="secondary-btn">Commands</button>
+        <button @click="scrollToCommands" class="secondary-btn">
+          Commands
+        </button>
       </div>
     </div>
   </main>
@@ -22,9 +24,19 @@ export default {
   name: "Hero",
   methods: {
     openURL() {
-      window.open("https://top.gg/bot/765063751208402944/invite", "_blank", "noopener");
-    }
-  }
+      window.open(
+        "https://top.gg/bot/765063751208402944/invite",
+        "_blank",
+        "noopener"
+      );
+    },
+    scrollToCommands() {
+      console.log(document.getElementById("command-container"));
+      document
+        .getElementById("command-container")
+        .scrollIntoView({ behavior: "smooth" });
+    },
+  },
 };
 </script>
 
