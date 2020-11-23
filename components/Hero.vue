@@ -1,19 +1,19 @@
 <template>
   <main>
     <div class="hero-container">
-      <img class="profile-img" src="/profile.png" />
+      <img class="profile-img" src="../assets/profile.png" />
       <h1>Astronomia</h1>
       <p class="tagline">
         An open source Discord bot for <strong>Space Enthusiasts.</strong>
       </p>
       <div class="button-holder">
         <button class="add-btn" @click="openURL">
-          <img class="discord-logo" src="../assets/discord.png" />
+          <img class="discord-logo" src="~/assets/discord.png" />
           <p>Add to Discord</p>
         </button>
-        <!-- <button @click="scrollToCommands" class="secondary-btn">
+        <button @click="scrollToCommands" class="secondary-btn">
           Commands
-        </button> -->
+        </button>
       </div>
     </div>
   </main>
