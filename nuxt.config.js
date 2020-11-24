@@ -3,6 +3,10 @@ export default {
   googleAnalytics: {
     id: 'G-7Q1F03FQX3'
   },
+  publicRuntimeConfig: {
+    googleAnalytics: {
+      id: 'G-7Q1F03FQX3'
+    },
   target: "static",
   router: {
     base: '/astronomia-site/'
