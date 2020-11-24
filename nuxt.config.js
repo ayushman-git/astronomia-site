@@ -1,13 +1,5 @@
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
-  googleAnalytics: {
-    id: "G-7Q1F03FQX3"
-  },
-  publicRuntimeConfig: {
-    googleAnalytics: {
-      id: "G-7Q1F03FQX3"
-    }
-  },
   target: "static",
   router: {
     base: "/astronomia-site/"
@@ -33,13 +25,13 @@ export default {
   css: [],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [],
+  plugins: [{ src: "~plugins/ga.js", mode: "client" }],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
-  buildModules: ["@nuxtjs/google-analytics"],
+  buildModules: [],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [],
