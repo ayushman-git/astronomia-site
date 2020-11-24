@@ -1,5 +1,8 @@
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
+  googleAnalytics: {
+    id: 'G-7Q1F03FQX3'
+  },
   target: "static",
   router: {
     base: '/astronomia-site/'
@@ -27,7 +30,9 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
-  buildModules: [],
+  buildModules: [
+    '@nuxtjs/google-analytics'
+  ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [],
