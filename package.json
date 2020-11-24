@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.6",
+    "vue-gtag": "^1.10.0"
   },
   "devDependencies": {
     "push-dir": "^0.4.1"
