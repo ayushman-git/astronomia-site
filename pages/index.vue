@@ -59,8 +59,10 @@ export default {
 }
 blockquote {
   font-family: "Dancing Script";
-  font-size: 2em;
+  font-size: clamp(1.8em, 2.6vw, 2.6vw);
   font-weight: 600;
+  text-align: center;
+  margin: 0 2em;
 }
 footer {
   width: 100%;
@@ -76,7 +78,12 @@ footer {
   max-width: 800px;
   display: flex;
   justify-content: space-around;
+  flex-flow: row wrap;
   align-items: center;
+}
+.footer-container h2 {
+  margin: 2em;
+  text-align: center;
 }
 footer a {
   color: #f13e3e;

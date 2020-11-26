@@ -119,5 +119,7 @@ h1 {
 .tagline {
   font-size: 1.5em;
   font-weight: 300;
+  text-align: center;
+  margin: 0 2em;
 }
 </style>

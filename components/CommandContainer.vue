@@ -76,4 +76,9 @@ article {
   z-index: 2;
   font-size: 1.2em;
 }
+@media only screen and (max-width: 975px) {
+  .command-list-grid {
+  grid-template-columns: 1fr;
+}
+}
 </style>
