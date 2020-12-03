@@ -1,5 +1,6 @@
 <template>
   <div class="command-list-container">
+    <div v-if="command.new" class="new"><p>NEW</p></div>
     <h2>
       {{ command.keyword }} <span class="argument">{{ command.argument }}</span>
     </h2>
@@ -24,6 +25,7 @@ export default {
 
 <style scoped>
 .command-list-container {
+  position: relative;
   padding: 2em;
   background-color: #252525;
   border-radius: 15px;
@@ -37,5 +39,25 @@ export default {
 }
 .argument {
   color: #f13e3e;
+}
+.new {
+  padding: 1em;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  background-color: #f13e3e;
+  border-radius: 5px;
+  right: -15px;
+  color: white;
+  top: -15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.command-list-container:hover .new {
+  background-color: #ffffff;
+  color: #f13e3e;
+
 }
 </style>
