@@ -16,6 +16,14 @@ module.exports = {
     example: ".upcoming | .upcoming event",
     new: true
   },
+  level: {
+    keyword: ".level",
+    description:
+      "Displays user's current level/profile.",
+    shorthands: ".l, .lvl, .profile",
+    example: ".level",
+    new: true
+  },
   sky: {
     keyword: ".sky",
     argument: "<theme> <location>",
