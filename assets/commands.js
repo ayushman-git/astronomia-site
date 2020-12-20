@@ -18,10 +18,27 @@ module.exports = {
   },
   level: {
     keyword: ".level",
+    argument: "<username>",
     description:
       "Displays user's current level/profile.",
     shorthands: ".l, .lvl, .profile",
-    example: ".level",
+    example: ".level | .level @astronomia",
+    new: true
+  },
+  rank: {
+    keyword: ".rank",
+    description:
+      "Displays top users.",
+    shorthands: ".r",
+    example: ".rank",
+    new: true
+  },
+  video: {
+    keyword: ".video",
+    description:
+      "Displays a random video from a curated list.",
+    shorthands: ".vid, .v",
+    example: ".vid",
     new: true
   },
   sky: {
