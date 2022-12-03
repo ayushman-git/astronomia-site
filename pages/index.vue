@@ -4,7 +4,7 @@
     <img src="../assets/curve.svg" />
     <div class="quote-container">
       <blockquote>
-        “I looked and looked but I didn’t see God.” - Yuri Gagarin
+        “Somewhere, something incredible is waiting to be known.” - Carl Sagan
       </blockquote>
     </div>
     <img
