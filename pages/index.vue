@@ -4,7 +4,7 @@
     <img src="../assets/curve.svg" />
     <div class="quote-container">
       <blockquote>
-        “Somewhere, something incredible is waiting to be known.” - Carl Sagan
+        We are a way for the cosmos to know itself.” - Carl Sagan
       </blockquote>
     </div>
     <img
