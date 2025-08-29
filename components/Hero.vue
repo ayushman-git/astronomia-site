@@ -25,7 +25,7 @@ export default {
   methods: {
     openURL() {
       window.open(
-        "https://top.gg/bot/765063751208402944/invite",
+        "https://discord.com/oauth2/authorize?client_id=1410693429478031411&permissions=2147485696&integration_type=0&scope=bot+applications.commands",
         "_blank",
         "noopener"
       );
